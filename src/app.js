@@ -18,7 +18,7 @@ app.post("/repositories", (request, response) => {
   // TODO
 });
 
-app.put("/repositories/:id", (request, response) => {
+app.put("/repositories/:id", validateProjectId, (request, response) => {
   // TODO
 });
 
